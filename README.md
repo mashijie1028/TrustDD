@@ -4,7 +4,7 @@ Official implementation of our paper **Towards Trustworthy Dataset Distillation*
 
 
 
-## Brief Introduction
+## Brief Introduction :star:
 
 Efficiency and trustworthiness are two eternal pursuits when applying deep learning in real-world applications. With regard to efficiency, dataset distillation (DD) endeavors to reduce training costs by distilling the large dataset into a tiny synthetic dataset. However, existing methods merely concentrate on in-distribution (InD) classification in a closed-world setting, disregarding out-of-distribution (OOD) samples. On the other hand, OOD detection aims to enhance models’ trustworthiness, which is always inefficiently achieved in full-data settings. For the first time, we simultaneously consider both issues and propose a novel paradigm called Trustworthy Dataset Distillation (TrustDD). By distilling both InD samples and outliers, the condensed datasets are capable to train models competent in both InD classification and OOD detection. To alleviate the requirement of real outlier data and make OOD detection more practical, we further propose to corrupt InD samples to generate pseudo-outliers and introduce PseudoOutlier Exposure (POE). Comprehensive experiments on various settings demonstrate the effectiveness of TrustDD, and the proposed POE surpasses state-of-the-art method Outlier Exposure (OE). Compared with the preceding DD, TrustDD is more trustworthy and applicable to real open-world scenarios. 
 
