@@ -14,6 +14,8 @@ The figure below depicts the difference between ordinary DD and TrustDD:
 
 :warning:**NOTE!!!** TrustDD is a learning paradigm, and could be incorporated into any DD methods, in this repo, we implement [DSA](https://github.com/VICO-UoE/DatasetCondensation) as a prototype.
 
+You can also incorporate OE/POE into other DD methods, e.g., [MTT](https://github.com/GeorgeCazenavette/mtt-distillation) to upgrade it to the version of TrustDD, which could be done by adding OE loss like [here](https://github.com/mashijie1028/TrustDD/blob/main/utils/dc_utils.py#L406).
+
 
 
 ## Running :running:
