@@ -22,6 +22,10 @@ You can also incorporate OE/POE into other DD methods, e.g., [MTT](https://githu
 
 This repo uses PyTorch 1.7 (earlier version 1.4 or later version 1.10 might also work)
 
+Before implementing DD, please download the outlier data (only for OE) [[300K Random Images](https://people.eecs.berkeley.edu/~hendrycks/300K_random_images.npy)](https://people.eecs.berkeley.edu/~hendrycks/300K_random_images.npy) like [Outlier Exposure](https://github.com/hendrycks/outlier-exposure)
+
+
+
 ### 1. Dataset Distillation
 
 **Ordinary Dataset Distillation:**
