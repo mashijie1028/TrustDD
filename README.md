@@ -22,7 +22,7 @@ You can also incorporate OE/POE into other DD methods, e.g., [MTT](https://githu
 
 This repo uses PyTorch 1.7 (earlier version 1.4 or later version 1.10 might also work)
 
-Before implementing TrustDD with OE, please download the outlier data [300K Random Images](https://people.eecs.berkeley.edu/~hendrycks/300K_random_images.npy) like [Outlier Exposure](https://github.com/hendrycks/outlier-exposure). For TrustDD with POE, there is no need to download the outlier data :happy:
+Before implementing TrustDD with OE, please download the outlier data [300K Random Images](https://people.eecs.berkeley.edu/~hendrycks/300K_random_images.npy) like [Outlier Exposure](https://github.com/hendrycks/outlier-exposure). For TrustDD with POE, there is no need to download the outlier data :smile:
 
 
 
