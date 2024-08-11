@@ -37,13 +37,13 @@ CUDA_VISIBLE_DEVICES=0 python main.py  --dataset CIFAR10  --model ConvNet  --num
 **TrustDD with Outlier Exposure (OE):**
 
 ```shell
-CUDA_VISIBLE_DEVICES=0 python main_oe.py  --dataset CIFAR10  --model ConvNet  --num_exp 1 --num_eval 5 --ipc 10  --init real  --method DSA  --dsa_strategy color_crop_cutout_flip_scale_rotate --seed 1  --lambda_oe 0.5 --num_oe_per_class 10000 --batch_real 256 --batch_oe 256
+CUDA_VISIBLE_DEVICES=0 python main_oe.py  --dataset CIFAR10  --model ConvNet  --num_exp 3 --num_eval 5 --ipc 10  --init real  --method DSA  --dsa_strategy color_crop_cutout_flip_scale_rotate --seed 1  --lambda_oe 0.5 --num_oe_per_class 10000 --batch_real 256 --batch_oe 256
 ```
 
 **TrustDD with Pseudo-Outlier Exposure (POE):**
 
 ```shell
-CUDA_VISIBLE_DEVICES=0 python main_poe.py  --dataset CIFAR10  --model ConvNet  --num_exp 1 --num_eval 5 --ipc 10  --init real  --method DSA  --dsa_strategy color_crop_cutout_flip_scale_rotate --seed 1  --lambda_oe 0.5 --batch_real 256 --batch_oe 256
+CUDA_VISIBLE_DEVICES=0 python main_poe.py  --dataset CIFAR10  --model ConvNet  --num_exp 3 --num_eval 5 --ipc 10  --init real  --method DSA  --dsa_strategy color_crop_cutout_flip_scale_rotate --seed 1  --lambda_oe 0.5 --batch_real 256 --batch_oe 256
 ```
 
 ### 2. Train models with distilled datasets
