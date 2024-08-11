@@ -94,7 +94,7 @@ keywords = {Dataset distillation, Out-of-distribution detection, Data-efficient 
 
 ## Acknowledgements :gift:
 
-In building the AGCD codebase, we reference the repositories of [Dataset Condensation](https://github.com/VICO-UoE/DatasetCondensation) and [Outlier Exposure](https://github.com/hendrycks/outlier-exposure)
+In building the TrustDD codebase, we reference the repositories of [Dataset Condensation](https://github.com/VICO-UoE/DatasetCondensation) and [Outlier Exposure](https://github.com/hendrycks/outlier-exposure)
 
 
 
