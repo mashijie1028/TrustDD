@@ -75,16 +75,13 @@ CUDA_VISIBLE_DEVICES=0 python test_ood_model_syn.py --method DSA  --dataset CIFA
 ## Citing this work :clipboard:
 
 ```
-@article{MA2024110875,
-title = {Towards trustworthy dataset distillation},
-journal = {Pattern Recognition},
-pages = {110875},
-year = {2024},
-issn = {0031-3203},
-doi = {https://doi.org/10.1016/j.patcog.2024.110875},
-url = {https://www.sciencedirect.com/science/article/pii/S0031320324006265},
-author = {Shijie Ma and Fei Zhu and Zhen Cheng and Xu-Yao Zhang},
-keywords = {Dataset distillation, Out-of-distribution detection, Data-efficient learning, Trustworthy learning}
+@article{ma2024towards,
+  title={Towards trustworthy dataset distillation},
+  author={Ma, Shijie and Zhu, Fei and Cheng, Zhen and Zhang, Xu-Yao},
+  journal={Pattern Recognition},
+  pages={110875},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
 
