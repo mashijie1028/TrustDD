@@ -75,12 +75,13 @@ CUDA_VISIBLE_DEVICES=0 python test_ood_model_syn.py --method DSA  --dataset CIFA
 ## Citing this work :clipboard:
 
 ```
-@article{ma2024towards,
+@article{ma2025towards,
   title={Towards trustworthy dataset distillation},
   author={Ma, Shijie and Zhu, Fei and Cheng, Zhen and Zhang, Xu-Yao},
   journal={Pattern Recognition},
+  volume={157},
   pages={110875},
-  year={2024},
+  year={2025},
   publisher={Elsevier}
 }
 ```
